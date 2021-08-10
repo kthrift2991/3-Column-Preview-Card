@@ -1,0 +1,122 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  background-color: hsl(0, 0%, 95%);
+  padding: 5rem 2.5rem;
+  margin: 40px 105px;
+}
+
+/* text and headers */
+.card-text {
+  color: hsla(0, 0%, 100%);
+  opacity: 75%;
+  line-height: 2;
+  letter-spacing: 2;
+  padding-bottom: 1.5rem;
+}
+
+.card-title {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 1.5rem;
+}
+
+/* cards */
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+  padding: 1.5rem;
+}
+
+.dark-cyan {
+  background-color: hsl(184, 100%, 22%);
+  border-radius: 0;
+  padding: 1.5rem 1rem 1.5rem 1.5rem;
+}
+
+.very-dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+  padding: 1.5rem 1rem 1.5rem 1.5rem;
+}
+
+/* buttons */
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 25px;
+}
+
+.btn:hover {
+  border-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.orange-btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.orange-btn:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.dark-cyan-btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan-btn:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.very-dark-cyan-btn {
+  color: hsl(179, 100%, 13%);
+}
+
+.very-dark-cyan-btn:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 991px) {
+  .container{
+    margin: 0;
+  }
+
+  .dark-cyan {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .very-dark-cyan {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container{
+    margin: 0;
+  }
+
+  .orange {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .dark-cyan {
+    border-radius: 0;
+  }
+
+  .very-dark-cyan {
+    border-radius: 0 0 10px 10px;
+  }
+}
